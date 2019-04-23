@@ -31,4 +31,18 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:layout_below="@+id/etUserMessage"/>
+    <Button
+            android:id="@+id/btnShareToOtherApps"
+            android:text="Share To Other Apps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/btnSendMessageToNextActivity"/>
+    <Button
+            android:id="@+id/btnRecyclerViewDemo"
+            android:text="Recycler and Cardview Demo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/btnShareToOtherApps"/>
 </RelativeLayout>

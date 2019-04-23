@@ -19,11 +19,30 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this, "Button was clicked!", Toast.LENGTH_LONG).show()
         }
 
+        //Explicit Intent
         btnSendMessageToNextActivity.setOnClickListener {
             val message: String = etUserMessage.text.toString()
-            Toast.makeText(this, message, Toast.LENGTH_LONG).show()
 
             val intent = Intent(this, SecondActivity::class.java)
+            intent.putExtra("user_message", message)
+            startActivity(intent)
+        }
+
+        //Implicit Intent
+        btnShareToOtherApps.setOnClickListener {
+            val message: String = etUserMessage.text.toString()
+
+            val intent = Intent()
+            intent.action = Intent.ACTION_SEND
+            intent.putExtra(Intent.EXTRA_TEXT, message)
+            intent.type = "text/plain"
+
+            startActivity(Intent.createChooser(intent, "Share to: "))
+        }
+
+        //Recycler and Cardview Demo
+        btnRecyclerViewDemo.setOnClickListener {
+            val intent = Intent(this, HobbiesActivity::class.java)
             startActivity(intent)
         }
     }
