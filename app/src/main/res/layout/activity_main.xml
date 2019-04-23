@@ -10,7 +10,7 @@
 
 
     <Button
-            android:text="Show Toast"
+            android:text="@string/btn_show_toast"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/btnShowText"
@@ -20,27 +20,27 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/etUserMessage"
-            android:hint="Enter Your Message"
+            android:hint="@string/et_enter_msg"
             android:layout_marginBottom="20dp"
             android:ems="10"
             android:layout_centerInParent="true"/>
     <Button
             android:id="@+id/btnSendMessageToNextActivity"
-            android:text="Send Data To Next Activity"
+            android:text="@string/btn_move_to_next_activity"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:layout_below="@+id/etUserMessage"/>
     <Button
             android:id="@+id/btnShareToOtherApps"
-            android:text="Share To Other Apps"
+            android:text="@string/btn_share_to_apps"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:layout_below="@+id/btnSendMessageToNextActivity"/>
     <Button
             android:id="@+id/btnRecyclerViewDemo"
-            android:text="Recycler and Cardview Demo"
+            android:text="@string/btn_hobbies"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"

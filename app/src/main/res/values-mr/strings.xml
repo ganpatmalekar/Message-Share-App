@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="btn_show_toast">टोस्ट दर्शवा</string>
+
+    <string name="btn_move_to_next_activity">पुढील क्रियाकलाप डेटा पाठवा</string>
+    <string name="btn_share_to_apps">इतर अॅप्सवर सामायिक करा</string>
+    <string name="btn_hobbies">माझे छंद दाखवा</string>
+
+    <string name="et_enter_msg">एक संदेश प्रविष्ट करा</string>
+
+    <string name="btn_clicked">बटण क्लिक केले</string>
+</resources>

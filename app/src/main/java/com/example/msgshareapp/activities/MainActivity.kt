@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         btnShowText.setOnClickListener{
             //Code
             Log.i(TAG, "Button was clicked !")
-            showToast("Button was clicked!")
+            showToast(resources.getString(R.string.btn_clicked), Toast.LENGTH_LONG)
         }
 
         //Explicit Intent
