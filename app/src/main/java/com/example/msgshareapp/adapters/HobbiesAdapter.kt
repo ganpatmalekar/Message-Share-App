@@ -1,4 +1,4 @@
-package com.example.msgshareapp
+package com.example.msgshareapp.adapters
 
 import android.content.Context
 import android.content.Intent
@@ -7,7 +7,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
-import kotlinx.android.synthetic.main.activity_main.*
+import com.example.msgshareapp.models.Hobby
+import com.example.msgshareapp.R
 import kotlinx.android.synthetic.main.list_item.view.*
 
 class HobbiesAdapter(val context: Context, val hobbies: List<Hobby>) : RecyclerView.Adapter<HobbiesAdapter.MyViewHolder>(){

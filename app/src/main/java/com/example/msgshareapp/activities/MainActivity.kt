@@ -1,10 +1,11 @@
-package com.example.msgshareapp
+package com.example.msgshareapp.activities
 
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
+import com.example.msgshareapp.R
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
